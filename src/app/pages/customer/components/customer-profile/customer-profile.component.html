@@ -1,0 +1,8 @@
+
+<ngx-customer-profile-search
+    (doSearch)="onSearch($event)">
+</ngx-customer-profile-search>
+<ngx-customer-profile-list
+    [data]="(customer-profileModel$ | async)?.customer-profile"
+    >
+</ngx-customer-profile-list>

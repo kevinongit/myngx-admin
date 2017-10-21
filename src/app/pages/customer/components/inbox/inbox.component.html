@@ -1,0 +1,8 @@
+
+<inbox-search
+    (doSearch)="onSearch($event)">
+</inbox-search>
+<inbox-list
+    [data]="(inboxModel$ | async)?.inbox"
+    >
+</inbox-list>

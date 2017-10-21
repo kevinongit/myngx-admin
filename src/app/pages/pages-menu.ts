@@ -12,6 +12,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Customer Info',
+    icon: 'nb-compose',
+    children: [
+      {
+        title: 'Customer Profile',
+        link: '/pages/customer/customerprofile',
+      },
+      {
+        title: 'Customer Inbox',
+        link: '/pages/customer/inbox',
+      },
+    ],
+  },
+  {
     title: 'UI Features',
     icon: 'nb-keypad',
     link: '/pages/ui-features',

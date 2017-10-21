@@ -1,0 +1,13 @@
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapsed;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd !important;
+    vertical-align: middle;
+    /* background-color: blue; */
+}

@@ -1,0 +1,27 @@
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title"> Inbox Detail</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>One fine body&hellip;</p>
+    <table class="table table-hover">
+      <tr *ngFor="let row of detail">
+        <th align="center" class="black-muted-bg"> <strong>{{row.name}}</strong> </th>
+        <td align="left"> {{row.value}} </td>
+      </tr>
+    </table>
+
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<!-- <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
+<hr>
+<pre>{{closeResult}}</pre> -->
+<i class="ion-document-text" style="font-size: 20px;" (click)="open(content)"></i>

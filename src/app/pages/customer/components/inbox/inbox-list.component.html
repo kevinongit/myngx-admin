@@ -1,0 +1,19 @@
+<div *ngIf="data">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th *ngFor="let column of data.majorColumns" align="center"> {{column}} </th>
+                <th align="center"> Action </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of data.allMajorRows; let i = index">
+                <td *ngFor="let item of row"> {{item}} </td>
+                <td align="center" (click)="detail=makeDetail(data, i)">  
+                    <inbox-item-modal [detail]="detail">
+                    </inbox-item-modal>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
