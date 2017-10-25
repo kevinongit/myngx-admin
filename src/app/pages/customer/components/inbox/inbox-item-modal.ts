@@ -13,7 +13,7 @@ export class InboxItemModal {
   @Input() detail;
 
   closeResult: string;
-
+  private JSObject: Object = Object;
 
   constructor(private modalService: NgbModal) {}
 

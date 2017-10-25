@@ -8,10 +8,14 @@
   <div class="modal-body">
     <p>One fine body&hellip;</p>
     <table class="table table-hover">
-      <tr *ngFor="let row of detail">
+      <tr *ngFor="let key of JSObject.keys(detail)">
+        <th align="center" class="black-muted-bg"> <strong>{{ key }}</strong> </th>
+        <td align="left"> {{ detail[key] }} </td>
+      </tr>
+      <!-- <tr *ngFor="let row of detail">
         <th align="center" class="black-muted-bg"> <strong>{{row.name}}</strong> </th>
         <td align="left"> {{row.value}} </td>
-      </tr>
+      </tr> -->
     </table>
 
 

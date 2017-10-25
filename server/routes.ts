@@ -31,7 +31,9 @@ export default function setRoutes(app) {
 
 
   // Inbox
-  app.route('/api/inboxes').get(inboxHandler.getData);
+  app.route('/api/inboxes').get(inboxHandler.getAll);
+  app.route('/api/inboxes2').get(inboxHandler.getData);
+  app.route('/api/inbox').post(inboxHandler.insert);
 
   // Engphrase
   app.route('/api/engphrases/').get(engphraseHandler.getAll);
