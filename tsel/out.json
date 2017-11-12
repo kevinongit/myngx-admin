@@ -1,0 +1,343 @@
+[{
+  "meta_info": {
+    "date": "2017/11/05"
+  },
+  "daily_registration": {
+    "ios": "1074",
+    "android": "9536",
+    "total": "10610"
+  },
+  "accumulated_registrations": {
+    "ios": "193673",
+    "android": "1036647",
+    "total": "1230320"
+  },
+  "airtime_unique_user": {
+    "android": "14095",
+    "ios": "1278",
+    "total": "15373"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1248",
+    "ios": "318",
+    "total": "1566"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "805",
+      "20000": "362",
+      "25000": "95",
+      "50000": "171",
+      "100000": "135",
+      "150000": "34",
+      "200000": "7",
+      "300000": "2"
+    },
+    "android": {
+      "10000": "26156",
+      "20000": "3837",
+      "25000": "611",
+      "50000": "828",
+      "100000": "406",
+      "150000": "104",
+      "200000": "23",
+      "300000": "12",
+      "500000": "4"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "196",
+      "transactions": "217"
+    },
+    "android": {
+      "users": "2356",
+      "transactions": "2922"
+    }
+  }
+}, {
+  "meta_info": {
+    "date": "2017/11/06"
+  },
+  "daily_registration": {
+    "ios": "666",
+    "android": "6239",
+    "total": "6905"
+  },
+  "accumulated_registrations": {
+    "ios": "194240",
+    "android": "1042438",
+    "total": "1236678"
+  },
+  "airtime_unique_user": {
+    "android": "15267",
+    "ios": "1348",
+    "total": "16615"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1397",
+    "ios": "391",
+    "total": "1788"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "864",
+      "20000": "477",
+      "25000": "117",
+      "50000": "223",
+      "100000": "162",
+      "150000": "39",
+      "200000": "6",
+      "300000": "7"
+    },
+    "android": {
+      "10000": "32498",
+      "20000": "4271",
+      "25000": "703",
+      "50000": "917",
+      "100000": "503",
+      "150000": "100",
+      "200000": "24",
+      "300000": "8",
+      "500000": "3"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "176",
+      "transactions": "201"
+    },
+    "android": {
+      "users": "2423",
+      "transactions": "2925"
+    }
+  }
+}, {
+  "meta_info": {
+    "date": "2017/11/07"
+  },
+  "daily_registration": {
+    "ios": "694",
+    "android": "6832",
+    "total": "7526"
+  },
+  "accumulated_registrations": {
+    "ios": "195118",
+    "android": "1050081",
+    "total": "1245199"
+  },
+  "airtime_unique_user": {
+    "android": "16817",
+    "ios": "1428",
+    "total": "18245"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1361",
+    "ios": "361",
+    "total": "1722"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "993",
+      "20000": "530",
+      "25000": "106",
+      "50000": "198",
+      "100000": "146",
+      "150000": "34",
+      "200000": "10",
+      "300000": "1"
+    },
+    "android": {
+      "10000": "33651",
+      "20000": "6038",
+      "25000": "665",
+      "50000": "956",
+      "100000": "448",
+      "150000": "97",
+      "200000": "30",
+      "300000": "10",
+      "500000": "7"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "204",
+      "transactions": "223"
+    },
+    "android": {
+      "users": "2361",
+      "transactions": "2923"
+    }
+  }
+}, {
+  "meta_info": {
+    "date": "2017/11/08"
+  },
+  "daily_registration": {
+    "ios": "1145",
+    "android": "10923",
+    "total": "12068"
+  },
+  "accumulated_registrations": {
+    "ios": "196518",
+    "android": "1061058",
+    "total": "1257576"
+  },
+  "airtime_unique_user": {
+    "android": "20126",
+    "ios": "1846",
+    "total": "21972"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1428",
+    "ios": "376",
+    "total": "1804"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "1318",
+      "20000": "529",
+      "25000": "125",
+      "50000": "215",
+      "100000": "151",
+      "150000": "42",
+      "200000": "5",
+      "300000": "2"
+    },
+    "android": {
+      "10000": "37930",
+      "20000": "5496",
+      "25000": "776",
+      "50000": "966",
+      "100000": "450",
+      "150000": "119",
+      "200000": "29",
+      "300000": "12",
+      "500000": "5"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "167",
+      "transactions": "179"
+    },
+    "android": {
+      "users": "2446",
+      "transactions": "3030"
+    }
+  }
+}, {
+  "meta_info": {
+    "date": "2017/11/09"
+  },
+  "daily_registration": {
+    "ios": "1343",
+    "android": "11356",
+    "total": "12699"
+  },
+  "accumulated_registrations": {
+    "ios": "198196",
+    "android": "1071880",
+    "total": "1270076"
+  },
+  "airtime_unique_user": {
+    "android": "18605",
+    "ios": "2117",
+    "total": "20722"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1343",
+    "ios": "404",
+    "total": "1747"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "1617",
+      "20000": "572",
+      "25000": "143",
+      "50000": "219",
+      "100000": "160",
+      "150000": "43",
+      "200000": "10",
+      "300000": "2"
+    },
+    "android": {
+      "10000": "28379",
+      "20000": "7148",
+      "25000": "711",
+      "50000": "921",
+      "100000": "411",
+      "150000": "114",
+      "200000": "23",
+      "300000": "15",
+      "500000": "6"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "183",
+      "transactions": "199"
+    },
+    "android": {
+      "users": "2657",
+      "transactions": "3275"
+    }
+  }
+}, {
+  "meta_info": {
+    "date": "2017/11/10"
+  },
+  "daily_registration": {
+    "ios": "826",
+    "android": "8988",
+    "total": "9814"
+  },
+  "accumulated_registrations": {
+    "ios": "198998",
+    "android": "1080796",
+    "total": "1279794"
+  },
+  "airtime_unique_user": {
+    "android": "19720",
+    "ios": "1429",
+    "total": "21149"
+  },
+  "airtime_unique_user_over_50k": {
+    "android": "1413",
+    "ios": "370",
+    "total": "1783"
+  },
+  "airtime_transaction_count_by_denom": {
+    "ios": {
+      "10000": "999",
+      "20000": "393",
+      "25000": "133",
+      "50000": "204",
+      "100000": "137",
+      "150000": "46",
+      "200000": "6",
+      "300000": "4"
+    },
+    "android": {
+      "10000": "36169",
+      "20000": "7718",
+      "25000": "750",
+      "50000": "969",
+      "100000": "473",
+      "150000": "100",
+      "200000": "13",
+      "300000": "12",
+      "500000": "3"
+    }
+  },
+  "daily_electricity_users": {
+    "ios": {
+      "users": "164",
+      "transactions": "179"
+    },
+    "android": {
+      "users": "2937",
+      "transactions": "3618"
+    }
+  }
+}]

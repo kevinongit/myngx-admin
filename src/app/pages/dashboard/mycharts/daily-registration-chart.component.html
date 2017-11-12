@@ -1,0 +1,34 @@
+<div>
+  <nb-card>
+    <nb-card-header>Daily Registration</nb-card-header>
+    <nb-card-body>
+      <!-- <h3> Daily Registration </h3> -->
+      <div echarts [options]="drOptions" class="daily"></div>
+    </nb-card-body>
+  </nb-card>
+</div>
+
+<div>
+  <nb-card>
+    <nb-card-header>Accumulated Registration</nb-card-header>
+    <nb-card-body>
+      <div echarts [options]="arOptions" class="daily"></div>
+    </nb-card-body>
+  </nb-card>
+</div>
+<div>
+  <nb-card>
+    <nb-card-header>Airtime Unique User</nb-card-header>
+    <nb-card-body>
+      <div echarts [options]="auuOptions" class="daily"></div>
+    </nb-card-body>
+  </nb-card>
+</div>
+<div>
+  <nb-card>
+    <nb-card-header>Airtime Unique User Over 50k</nb-card-header>
+    <nb-card-body>
+      <div echarts [options]="auuo5Options" class="daily"></div>
+    </nb-card-body>
+  </nb-card>
+</div>

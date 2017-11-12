@@ -1,0 +1,52 @@
+{
+    "meta_info": {
+        "date": "2017/11/10"
+    },
+    "daily_registration" : {
+        "ios": 826,
+        "android": 8988,
+        "total": 9814
+    },
+    "accumulated_registration": {
+        "ios": 198998,
+        "android": 1080796,
+        "total": 1279794
+    },
+    "airtime_unique_user": {
+        "ios": 370,
+        "android": 1413
+    },
+    "airtime_transaction_count_by_denom": {
+        "android": {
+            "10000": 4243,
+            "20000": 1232,
+            "25000": 1000,
+            "50000": 432342,
+            "100000": 473,
+            "150000": 100,
+            "200000": 13,
+            "300000": 12,
+            "500000": 3
+        },
+        "ios": {
+            "10000": 999,
+            "20000": 393,
+            "25000": 133,
+            "50000": 204,
+            "100000": 137,
+            "150000": 46,
+            "200000": 6,
+            "300000": 4
+        }
+    },
+    "daily_electricity_user": {
+        "android": {
+            "users": 2973,
+            "transactions": 3618
+        },
+        "ios": {
+            "users": 164,
+            "transactions": 179
+        }
+    }
+}

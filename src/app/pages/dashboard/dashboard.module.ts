@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { AngularEchartsModule } from 'ngx-echarts';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ChartModule } from 'angular2-chartjs';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { DashboardComponent } from './dashboard.component';
@@ -20,11 +22,15 @@ import { PlayerComponent } from './rooms/player/player.component';
 import { TrafficComponent } from './traffic/traffic.component';
 import { TrafficChartComponent } from './traffic/traffic-chart.component';
 
+import { DailyRegistrationChartComponent } from './mycharts/daily-registration-chart.component';
+import { DailyRegistrationService } from 'app/pages/dashboard/mycharts/daily-registration.service';
+
 
 @NgModule({
   imports: [
     ThemeModule,
     AngularEchartsModule,
+    NgxChartsModule,
   ],
   declarations: [
     DashboardComponent,
@@ -44,6 +50,8 @@ import { TrafficChartComponent } from './traffic/traffic-chart.component';
     SolarComponent,
     TrafficComponent,
     TrafficChartComponent,
+    DailyRegistrationChartComponent,
   ],
+  providers: [ DailyRegistrationService ],
 })
 export class DashboardModule { }

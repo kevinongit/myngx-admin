@@ -1,0 +1,13 @@
+{
+  "name": "example-stream-parser",
+  "version": "0.0.0",
+  "description": "An example Node.js streaming data file parser",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolashery/example-stream-parser.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
