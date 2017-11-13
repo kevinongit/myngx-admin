@@ -4,10 +4,12 @@ export const mockData = {
       "series": [{
         "name": "Android",
         "type": "bar",
+        "stack": "daily",
         "data": ["9536", "6239", "6832", "10923", "11356", "8988"]
       }, {
         "name": "IOS",
         "type": "bar",
+        "stack": "daily",
         "data": ["1074", "666", "694", "1145", "1343", "826"]
       }, {
         "name": "Total",

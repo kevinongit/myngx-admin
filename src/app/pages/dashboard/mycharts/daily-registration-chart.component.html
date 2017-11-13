@@ -1,9 +1,41 @@
 <div>
+
   <nb-card>
     <nb-card-header>Daily Registration</nb-card-header>
     <nb-card-body>
+
       <!-- <h3> Daily Registration </h3> -->
       <div echarts [options]="drOptions" class="daily"></div>
+      <div class="example-container toolbars-container">
+        <div class="pagination-container">
+          <div class="container-title">Pagination</div>
+          <div class="btn-group btn-toggle-group btn-outline-toggle-group" data-toggle="buttons" ngbRadioGroup>
+            <label class="btn btn-outline-success btn-icon" [class.active]="false">
+              <input type="radio" [value]="0">
+              <i class="nb-arrow-left"></i>
+            </label>
+            <label class="btn btn-outline-success">
+              <input type="radio" [value]="1"> 1
+            </label>
+            <label class="btn btn-outline-success">
+              <input type="radio" [value]="2"> 2
+            </label>
+            <label class="btn btn-outline-success">
+              <input type="radio" [value]="3"> 3
+            </label>
+            <label class="btn btn-outline-success">
+              <input type="radio" [value]="4"> 4
+            </label>
+            <label class="btn btn-outline-success">
+              <input type="radio" [value]="5"> 5
+            </label>
+            <label class="btn btn-outline-success btn-icon" [class.active]="false">
+              <input type="radio" [value]="6">
+              <i class="nb-arrow-right"></i>
+            </label>
+          </div>
+        </div>
+      </div>
     </nb-card-body>
   </nb-card>
 </div>
