@@ -5,42 +5,71 @@
     <nb-card-body>
 
       <!-- <h3> Daily Registration </h3> -->
-      <div echarts [options]="drOptions" class="daily"></div>
-      <div class="example-container toolbars-container">
+      <div echarts [options]="drOptions" [dataset]="dataset" class="daily"> </div>
+      <div class="btn-group">
         <div class="pagination-container">
-          <div class="container-title">Pagination</div>
+          <ul *ngIf="pager.pages && pager.pages.length" class="pagination" >
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+              <a (click)="setPage(1)">처음</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+              <a (click)="setPage(pager.currentPage - 1)">이전</a>
+            </li>
+            <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}" >
+              <a (click)="setPage(page)">{{page}}</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+              <a (click)="setPage(pager.currentPage + 1)">다음</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+              <a (click)="setPage(pager.totalPages)">마지막</a>
+            </li>
+          </ul>
+
+          <!-- <div class="container-title">Pagination</div>
           <div class="btn-group btn-toggle-group btn-outline-toggle-group" data-toggle="buttons" ngbRadioGroup>
-            <label class="btn btn-outline-success btn-icon" [class.active]="false">
-              <input type="radio" [value]="0">
+            <li class="btn btn-outline-success btn-icon" [class.active]="false">
+              <a (click)="setPage(1)">
+              <input type="radio">
+              <i class="nb-skip-backward"></i>
+            </a>
+            </li>
+            <li class="btn btn-outline-success btn-icon" [class.active]="false">
+              <input type="radio" [value]="1">
               <i class="nb-arrow-left"></i>
-            </label>
-            <label class="btn btn-outline-success">
+            </li>
+
+            <li class="btn btn-outline-success">
               <input type="radio" [value]="1"> 1
-            </label>
-            <label class="btn btn-outline-success">
+            </li>
+            <li class="btn btn-outline-success">
               <input type="radio" [value]="2"> 2
-            </label>
-            <label class="btn btn-outline-success">
+            </li>
+            <li class="btn btn-outline-success">
               <input type="radio" [value]="3"> 3
-            </label>
-            <label class="btn btn-outline-success">
+            </li>
+            <li class="btn btn-outline-success">
               <input type="radio" [value]="4"> 4
-            </label>
-            <label class="btn btn-outline-success">
+            </li>
+            <li class="btn btn-outline-success">
               <input type="radio" [value]="5"> 5
-            </label>
-            <label class="btn btn-outline-success btn-icon" [class.active]="false">
+            </li>
+            <li class="btn btn-outline-success btn-icon" [class.active]="false">
               <input type="radio" [value]="6">
               <i class="nb-arrow-right"></i>
-            </label>
-          </div>
+            </li>
+            <li class="btn btn-outline-success btn-icon" [class.active]="false">
+              <input type="radio" [value]="0">
+              <i class="nb-skip-forward"></i>
+            </li>
+          </div> -->
         </div>
       </div>
     </nb-card-body>
   </nb-card>
 </div>
 
-<div>
+<!-- <div>
   <nb-card>
     <nb-card-header>Accumulated Registration</nb-card-header>
     <nb-card-body>
@@ -63,4 +92,4 @@
       <div echarts [options]="auuo5Options" class="daily"></div>
     </nb-card-body>
   </nb-card>
-</div>
+</div> -->

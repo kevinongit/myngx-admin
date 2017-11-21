@@ -24,7 +24,7 @@ import { TrafficChartComponent } from './traffic/traffic-chart.component';
 
 import { DailyRegistrationChartComponent } from './mycharts/daily-registration-chart.component';
 import { DailyRegistrationService } from 'app/pages/dashboard/mycharts/daily-registration.service';
-
+import { DailyPagination } from 'app/pages/dashboard/mycharts/daily-pagination';
 
 @NgModule({
   imports: [
@@ -52,6 +52,6 @@ import { DailyRegistrationService } from 'app/pages/dashboard/mycharts/daily-reg
     TrafficChartComponent,
     DailyRegistrationChartComponent,
   ],
-  providers: [ DailyRegistrationService ],
+  providers: [ DailyRegistrationService, DailyPagination ],
 })
 export class DashboardModule { }

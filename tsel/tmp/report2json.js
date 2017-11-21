@@ -77,7 +77,7 @@ function getReports() {
     const dir = './reports';
     let files = fs.readdirSync(dir);
     let list = [];
-console.log('files : ' + files.length);
+    console.log('files : ' + files.length);
     for (i in files) {
         res = getJsonFromFile(dir + "/" + files[i]);
         list.push(res);
